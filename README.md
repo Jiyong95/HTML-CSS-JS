@@ -5,3 +5,5 @@
 <a href="https://github.com/Jiyong95/Frontend-/blob/main/README2.md"> part 2. VSC 기본 셋팅, 단축키</a>
 
 <a href="https://github.com/Jiyong95/Frontend-/blob/main/part3/README.md"> part 3. HTML 태그</a>
+
+<a href="https://github.com/Jiyong95/Frontend-/blob/main/part4/README.md"> part 4. CSS reset</a>
