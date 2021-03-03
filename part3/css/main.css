@@ -1,4 +1,10 @@
 div {
-  color: red;
-  font-size: 100px;
+  width: 500px;
+  height:500px;
+  background: url("../images/KakaoTalk_Photo_2021-03-03-23-48-25.jpeg")
+  /* img를 불러옴 */
+  /*절대경로
+  background: url("/part3/images/KakaoTalk_Photo_2021-03-03-23-48-25.jpeg")
+  */
+
 }
