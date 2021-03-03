@@ -23,7 +23,7 @@
 >문서의 구조를 나타내는 범위
 >: 웹 페이지에 보여지는 구조를 작성
 
-### <a href="https://github.com/Jiyong95/Frontend-/blob/main/part3-4/README.md"> part 3-4. link 태그</a>
+### <a href="https://github.com/Jiyong95/Frontend-/blob/main/part3/README.md"> part 3-4. link 태그</a>
 
 #### 출처
 - 패스트캠퍼스
