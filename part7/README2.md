@@ -13,15 +13,15 @@
 >![](../md_image/7.1.png)
 >#### 5) :Last-child{}
 >![](../md_image/7.2.png)
->#### 6) :nth-child{}
->- n번째 선택
->![](../md_image/7.3.png)
->- 짝수선택
->![](../md_image/7.3.1.png)
->- 2번째부터 선택
->![](../md_image/7.3.2.png)
->#### 7) :not(){}
->![](../md_image/7.4.png)
+>#### 6) :nth-child{}  
+>- n번째 선택  
+>![](../md_image/7.3.png)  
+>- 짝수선택  
+>![](../md_image/7.3.1.png)  
+>- 2번째부터 선택  
+>![](../md_image/7.3.2.png)  
+>#### 7) :not(){}  
+>![](../md_image/7.4.png)  
 
 #### 출처
 - 패스트캠퍼스(HEROPY님 강의)
