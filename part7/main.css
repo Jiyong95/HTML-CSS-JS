@@ -1,0 +1,11 @@
+.box{
+	width:100px;
+	height: 100px;
+	background-color: orange;
+	transition: 1s;
+}
+
+.box:focus{
+	background-color: blue;
+	width: 300px;
+}
