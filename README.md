@@ -6,4 +6,4 @@
 
 <a href="https://github.com/Jiyong95/Frontend-/blob/main/part3/README.md"> part 3. HTML 태그</a>
 
-<a href="https://github.com/Jiyong95/Frontend-/blob/main/part4/README.md"> part 4. CSS reset, inline, Block</a>
+<a href="https://github.com/Jiyong95/Frontend-/blob/main/part4~6/README.md"> part 4~6. CSS reset, inline, Block</a>
