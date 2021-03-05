@@ -25,21 +25,21 @@
 >
 
 >2.복합 선택자  
->>1)일치 선택자  
->>태그.class명{} : 해당 태그와 class명을 만족하는 요소 선택
->>![](../md_image/css11.png)
->>2)자식 선택자  
->>태그 > .클래스명{} : 해당 태그의 자식중에 해당되는 class명을 가진 요소 선택
->>![](../md_image/css12.png)
->>3)하위(후손) 선택자  
->>태그(공백).class명{} : 해당 태그의 후손중에 해당 class명을 가진 요소 선택 
->>![](../md_image/css13.png)
->>4)인접 형제 선택자  
->>.class명 + 태그{}
->>![](../md_image/css14.png)
->>5)일반 형제 선태자
->>.class명 ~ 태그{}
->>![](../md_image/css15.png)
+>- 1)일치 선택자  
+>    태그.class명{} : 해당 태그와 class명을 만족하는 요소 선택
+>   ![](../md_image/css11.png)
+>- 2)자식 선택자  
+>   태그 > .클래스명{} : 해당 태그의 자식중에 해당되는 class명을 가진 요소 선택
+>   ![](../md_image/css12.png)
+>- 3)하위(후손) 선택자  
+>   태그(공백).class명{} : 해당 태그의 후손중에 해당 class명을 가진 요소 선택 
+>   ![](../md_image/css13.png)
+>- 4)인접 형제 선택자  
+>   .class명 + 태그{}
+>   ![](../md_image/css14.png)
+>- 5)일반 형제 선태자  
+>   .class명 ~ 태그{}
+>   ![](../md_image/css15.png)
 
 ### <a href="https://github.com/Jiyong95/Frontend-/blob/main/part7/README2.md"> + CSS 가상 클래스 선택자</a>
 
