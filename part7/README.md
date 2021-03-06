@@ -41,10 +41,10 @@
 >   .class명 ~ 태그{}  
 >   ![](../md_image/css15.png)
 
-### <a href="https://github.com/Jiyong95/Frontend-/blob/main/part7/README2.md"> 1. 가상 클래스 선택자</a>
-### <a href="https://github.com/Jiyong95/Frontend-/blob/main/part7/README3.md"> 2. 가상 요소 선택자</a>
-### <a href="https://github.com/Jiyong95/Frontend-/blob/main/part7/README4.md"> 3. 속성 선택자</a>
-### <a href="https://github.com/Jiyong95/Frontend-/blob/main/part7/README5.md"> 4. CSS 상속, 우선순위</a>
+### <a href="https://github.com/Jiyong95/Frontend-/blob/main/part7/README2.md"> 1) 가상 클래스 선택자</a>
+### <a href="https://github.com/Jiyong95/Frontend-/blob/main/part7/README3.md"> 2) 가상 요소 선택자</a>
+### <a href="https://github.com/Jiyong95/Frontend-/blob/main/part7/README4.md"> 3) 속성 선택자</a>
+### <a href="https://github.com/Jiyong95/Frontend-/blob/main/part7/README5.md"> 4) CSS 상속, 우선순위</a>
 
 
 #### 출처
