@@ -34,3 +34,38 @@
 >#### 값
 >- scroll(기본 값) : img가 요소를 따라 같이 스크롤  
 >- fixed : img가 뷰포트에 고정, 스크롤 x  
+
+### 19.position
+> 요소의 위치 지정 기준
+>#### 값
+>- static(기본 값) : 기준 없음  
+>- relative : 요소 자신을 기준  
+>- absolute : 부모 요소를 기준으로 위치, 기준을 바꿀 수 있음  
+>- fixed : 뷰포트를 기준  
+>- sticky : 스크롤 영역 기준  
+
+
+### *relative
+![](../md_image/relative.png)
+>- relative의 속성 값을 통해 자식2가 다른 곳으로 이동하더라도 자식3이 자식2의 자리를 채우지 않음.  
+>- 자식2의 원래 자리는 다른 자식들에 영향을 주고있다.  
+
+### *absolute
+>case1) 부모를 기준으로 배치(부모요소에 relative 안해도 자동으로 부모를 기준)
+>  ![](../md_image/absolute.png)
+>- absolute의 속성 값을 통해 자식3이 자식2의 자리를 채움.  
+>- 자식2가 다른 자식들에게 영향을 주지 않게 됨.  
+> 
+>case2) relative가 2개 이상일 때
+>  ![](../md_image/absolute1.png)
+>- 자동으로 부모를 기준
+>
+>case3) 다른 요소를 기준으로
+>![](../md_image/absolute2.png)
+>- 해당 요소에 relative, 부모요소에 static
+
+### 20.top,bottom,left,right
+> 요소의 각 방향별 거리 지정
+>#### 값
+>- auto(기본 값) : 브라우저가 계산
+>- px,em,rem...
