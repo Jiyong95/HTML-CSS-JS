@@ -1,3 +1,12 @@
+body{
+	height:3000px;
+}
+.wrap{
+	width:400px;
+	height:300px;
+	background-color: tomato;
+	position: relative;
+}
 .container{
 	width:300px;
 	background-color: royalblue;
@@ -6,7 +15,6 @@
 	border:4px dashed red;
 	background-color: orange;
 }
-
 .container .con:nth-child(1){
 	width: 100px;
 	height: 100px;
@@ -14,7 +22,9 @@
 .container .con:nth-child(2){
 	width: 140px;
 	height: 70px;
-	position: absolute;
+	position: fixed;
+	bottom:30px;
+	right:60px;
 }
 .container .con:nth-child(3){
 	width: 70px;
