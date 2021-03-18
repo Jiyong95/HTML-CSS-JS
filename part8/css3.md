@@ -1,4 +1,4 @@
-## flex Container에 적용하는 속성
+# flex Container에 적용하는 속성
 ### 22.display : flex
 > container 안의 item들을 수평정렬한다.  
 >![](../md_image/flex1.png)
@@ -8,8 +8,7 @@
 > - flex는 container안의 item들을 수평정렬  
 하지만 container는 block이여서 수직으로 쌓임  
 > ![](../md_image/flex3.png)
-> - inline-flex는 item -> 수평정렬 + container -> inline으로 바꿔주어  
-container가 수평으로 쌓이도록 한다
+> - inline-flex는 item -> 수평정렬 + container -> inline으로 바꿔주어 container가 수평으로 쌓이도록 한다
 > ![](../md_image/flex2.png)
 
 ### 24.flex-direction
@@ -61,7 +60,7 @@ container가 수평으로 쌓이도록 한다
 >
 >![](../md_image/align-items.png)
 
-## flex Items에 적용하는 속성
+# flex Items에 적용하는 속성
 ### 29.order
 > Flex Item의 순서 지정  
 > 기본 값 : 0  
