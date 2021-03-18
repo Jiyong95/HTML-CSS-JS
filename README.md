@@ -11,3 +11,8 @@
 <a href="https://github.com/Jiyong95/Frontend-/blob/main/part7/README.md"> part 7. CSS 선택자</a>
 
 <a href="https://github.com/Jiyong95/Frontend-/blob/main/part8/README.md"> part 8. CSS 속성</a>
+
+
+#### 출처
+- 위키백과
+- 패스트캠퍼스 강의(heropy님)
