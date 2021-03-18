@@ -12,6 +12,8 @@
 >- px,em,rem
 >- cover : 요소의 더 큰 너비에 맞춤(width vs height)
 >- contaion : 요소의 더 작은 너비에 맞춤(width vs height)
+>
+>![](../md_image/bg-size.png)
 
 ### 18-3.background-repeat
 > image를 배경 반복 제어  
