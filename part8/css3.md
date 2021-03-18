@@ -1,10 +1,10 @@
 ## flex Container에 적용하는 속성
-### 23.display : flex
+### 22.display : flex
 > container 안의 item들을 수평정렬한다.  
 >![](../md_image/flex1.png)
 
 
-### 24.display : inline-flex
+### 23.display : inline-flex
 > - flex는 container안의 item들을 수평정렬  
 하지만 container는 block이여서 수직으로 쌓임  
 > ![](../md_image/flex3.png)
@@ -12,7 +12,7 @@
 container가 수평으로 쌓이도록 한다
 > ![](../md_image/flex2.png)
 
-### 25.flex-direction
+### 24.flex-direction
 > 축(행, 열)을 설정  
 > #### 값  
 > - row(기본 값) : 좌->우 수평으로 쌓임  
@@ -21,7 +21,7 @@ container가 수평으로 쌓이도록 한다
 > - column-reverse  
 >![](../md_image/flex-direction.png)
 
-### 26.flex-wrap
+### 25.flex-wrap
 > flex Items 묶음(줄 바꿈)여부
 > #### 값
 > - no wrap(기본 값) : 묶음(줄 바꿈)없음
@@ -29,7 +29,7 @@ container가 수평으로 쌓이도록 한다
 >
 >![](../md_image/flex-wrap.png)
 
-### 27.justify-content
+### 26.justify-content
 > 주 축(수평)의 정렬 방법
 > #### 값
 > - flex-start(기본 값) : Flex Items를 시작점으로 정렬
@@ -40,7 +40,7 @@ container가 수평으로 쌓이도록 한다
 >
 >![](../md_image/justify-content.png)
 
-### 28. align-content
+### 27. align-content
 > 교차 축(수직)의 여러 줄에 대한 정렬 방법  
 > 속성이 동작하려면 flex-wrap(=2줄의 items) + 정렬가능한 여백이 있어야함  
 > #### 값
@@ -51,7 +51,7 @@ container가 수평으로 쌓이도록 한다
 >
 >![](../md_image/align-content.png)
 
-### 29. align-items
+### 28. align-items
 > 교차 축의 한 줄 한 줄에 대한 정렬 방법
 > #### 값
 > - stretch(기본 값) : Flex Items를 시작점으로 정렬(띄워서)
@@ -62,12 +62,12 @@ container가 수평으로 쌓이도록 한다
 >![](../md_image/align-items.png)
 
 ## flex Items에 적용하는 속성
-### 30.order
+### 29.order
 > Flex Item의 순서 지정  
 > 기본 값 : 0  
 >![](../md_image/order.png)
 
-### 31. flex-basis
+### 30. flex-basis
 > Flex Item 공간 배분 전 기본 너비
 > #### 값
 >- auto(기본 값) : item Content 너비
@@ -77,7 +77,7 @@ container가 수평으로 쌓이도록 한다
 >![](../md_image/basis2.png)
 >![](../md_image/basis3.png)
 
-### 32.flex-grow
+### 31.flex-grow
 > Flex Item의 증가 너비 비율
 > #### 값
 > - 0(기본 값)  
@@ -88,7 +88,7 @@ container가 수평으로 쌓이도록 한다
 >
 >![](../md_image/flex-grow1.png)
 
-### 33.flex-shrink
+### 32.flex-shrink
 > Flex Item의 감소 너비 비율
 > #### 값
 > - 1(기본 값) : 0이 아닌 이유는 컨테이너가 줄때 같이 줄기 때문

@@ -155,5 +155,3 @@
 >- 0(기본 값)  
 >- 1 ~   : 들여쓰기  
 >-   ~ 0 : 내어쓰기  
-
-## <a href="https://github.com/Jiyong95/Frontend-/blob/main/part8/README1.md">CSS 속성2</a>
