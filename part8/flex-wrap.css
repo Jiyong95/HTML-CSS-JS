@@ -1,0 +1,20 @@
+.container{
+	background-color: royalblue;
+	width: 700px;
+	height : 600px;
+	display: flex;
+}
+
+.container .con-1{
+	display: flex;
+}
+.container .con-2{
+	display: flex;
+}
+.container .item{
+	width: 100px;
+	height: 100px;
+	border:3px dashed red;
+	background-color: orange;
+}
+

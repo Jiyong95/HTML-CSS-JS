@@ -1,0 +1,12 @@
+.container{
+	background-color: royalblue;
+	display: inline-flex;
+}
+
+.container .item{
+	width: 100px;
+	height: 100px;
+	border:3px dashed red;
+	background-color: orange;
+}
+
