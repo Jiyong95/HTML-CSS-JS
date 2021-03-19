@@ -15,6 +15,8 @@
 ### 2.max-width, max-height
 >기본 값 : none(=제한 없음)  
 >단위 : px, em, vw 등  
+>#### 중요
+>최대 크기 설정 + 아무리 줄어들어도 내부요소가 안 잘림(width와의 차이점)
 
 ### 3.min-width, min-heigh
 >기본 값 : 0  

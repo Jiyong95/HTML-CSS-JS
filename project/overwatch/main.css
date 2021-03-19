@@ -18,6 +18,10 @@ body{
 	flex-wrap: wrap;
 	justify-content: center;
 	max-width: 700px;
+	/* 
+	이 요소가 커질 수 있는 최대 width 700px + 요소가 줄어들어도 내부 요소가 안짤림
+	width로만 지정해주면 요소가 줄어들면 내부 요소가 잘림
+	 */
 	margin: 0 auto;
 	/* 
 	block요소의 width 값이 있을 때, margin : auto사용 시 좌우 가운데 정렬 된다.
@@ -102,7 +106,7 @@ body{
 .container .logo{
 	max-width: 300px;
 	margin:0 auto;
-	padding: 0 20px;
+	padding: 20px;
 }
 
 .container .logo img{
