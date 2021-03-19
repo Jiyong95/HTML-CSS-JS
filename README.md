@@ -12,6 +12,7 @@
 
 <a href="https://github.com/Jiyong95/Frontend-/blob/main/part8/README.md"> part 8. CSS 속성</a>
 
+<a href="https://github.com/Jiyong95/Frontend-/blob/main/part9/README.md"> part 9. JS</a>
 
 #### 출처
 - 위키백과
