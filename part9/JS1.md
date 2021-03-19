@@ -2,14 +2,14 @@
 > HTML, CSS
 >- 1)dash-case  
 >   the-quick-brown-fox  
->- 2)snake_case
+>- 2)snake_case  
 >   the_quick_brown_fox  
 >
 >JS
->- 1)camelCase(주로사용)
->   theQuickBrownFox
->- 2)PascalCase
->   TheQuickBrownFox 
+>- 1)camelCase(주로사용)  
+>   theQuickBrownFox  
+>- 2)PascalCase  
+>   TheQuickBrownFox  
 
 ### 데이터 종류(자료형)
 >### String
