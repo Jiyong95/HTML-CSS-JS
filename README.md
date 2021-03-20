@@ -1,8 +1,8 @@
 ## 프론트엔드 공부(패스트 캠퍼스)
 
-<a href="https://github.com/Jiyong95/Frontend-/blob/main/README1.md"> part 1. 프론트엔드 기본 개념</a>
+<a href="https://github.com/Jiyong95/Frontend-/blob/main/part1,2/README1.md"> part 1. 프론트엔드 기본 개념</a>
 
-<a href="https://github.com/Jiyong95/Frontend-/blob/main/README2.md"> part 2. VSC 기본 셋팅, 단축키</a>
+<a href="https://github.com/Jiyong95/Frontend-/blob/main/part1,2/README2.md"> part 2. VSC 기본 셋팅, 단축키</a>
 
 <a href="https://github.com/Jiyong95/Frontend-/blob/main/part3/README.md"> part 3. HTML 기본 태그</a>
 
