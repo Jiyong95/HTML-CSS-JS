@@ -5,17 +5,37 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Starbucks</title>
-	<link rel="icon" href="./favicon.ico" />
+<!-- 오픈 그래프 -->
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Starbucks" />
+	<meta property="og:title" content="Starbucks Coffee Korea" />
+	<meta property="og:description" content="스타벅스는 세계에서 가장 큰 다국적 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
+	<meta property="og:image" content="./images/starbucks_seo.jpg" />
+	<meta property="og:url" content="https://starbucks.co.kr" />
+
 	<!-- 
 		root경로에 만들었으면 link태그를 따로 작성해주지 않아도 저절로 favicon.ico가 적용됨.
-		favicon.png사요하려면 href 바꿔주면 된다.
-	 -->
+		favicon.png사용하려면 href 바꿔주면 된다.
+	-->
+	<link rel="icon" href="./favicon.ico" />
+	 <!-- css reset, font, icon, css 연결-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="./css/main.css" />
 </head>
 
 <body>
-	Hello
+	<!--HEADER-->
+	<header>
+		<div class="inner">
+			<!-- index.html 절대 경로 -->
+			<a href="/" class="logo">
+				<img src="./images/starbucks_logo.png" alt="STARBUCKS">
+			</a>
+		</div>
+	</header>
 </body>
 
 </html>
