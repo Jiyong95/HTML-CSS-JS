@@ -46,6 +46,10 @@
 >- fixed : 뷰포트를 기준  
 >- sticky : 스크롤 영역 기준  
 
+## +
+```
+position : fixed, absolute는 width를 최소한으로 사용하려한다.
+```
 
 ### relative
 ![](../md_image/relative.png)

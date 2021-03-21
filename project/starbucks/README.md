@@ -45,4 +45,9 @@
 >6.Usage 사용
 >![](../../md_image/google-icon2.png) 
 
+### BEM(Block Element Modifer)
+>HTML 클래스 속성의 작명법
+>- 1.요소__일부분
+>- 2.요소--상태
+
 ## <a href="https://github.com/Jiyong95/Frontend-/blob/main/project/starbucks/README/README1.md"> 코드 설명 </a>
