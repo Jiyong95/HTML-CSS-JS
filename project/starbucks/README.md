@@ -11,8 +11,8 @@
 
 > - 링크의 미리보기 제목, 설명, 이미지를 결정하는 meta 데이터의 새로운 표기 방법  
 > - 오픈그래프는 어떤 HTML 문서의 메타정보를 쉽게 표시하기 위해 정의해놓은 프로토콜
-> - <a href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started">트위터 카드</a>도 있다.
 >![](https://raw.githubusercontent.com/ParkYoungWoong/starbucks-vanilla-app/master/_assets/kakao_og_example.jpg)
+> - <a href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started">트위터 카드</a>도 있다.  
 >
 >#### 작성법
 >```html
@@ -45,4 +45,4 @@
 >6.Usage 사용
 >![](../../md_image/google-icon2.png) 
 
-<a href="https://github.com/Jiyong95/Frontend-/blob/main/project/starbucks/README/README1.md"> 코드 설명 </a>
+## <a href="https://github.com/Jiyong95/Frontend-/blob/main/project/starbucks/README/README1.md"> 코드 설명 </a>

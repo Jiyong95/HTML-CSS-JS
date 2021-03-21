@@ -1,9 +1,9 @@
-### img {display : block} 사용 이유
+## img {display : block} 사용 이유
 >![](../../../md_image/imgblock1.png)
 >![](../../../md_image/imgblock2.png)
 
 
-### 배치
+## 배치
 ![](../../../md_image/code_position.png)
 ```css
 /* HEADER */
@@ -15,8 +15,6 @@ header .inner{
 	/*1)inner 수평 중앙 배치*/
 	width: 1100px;
 	height: 120px;
-	left:0;
-	right:0;
 	margin:0 auto;
 
 	background-color: orange;
@@ -50,4 +48,23 @@ header .logo{
 >- 1)은 가로 기준(block)에서 가운데에 배치  
 >- 2)3)은 부모기준에서 가운데에 배치
    
-  
+## 가상요소 선택자
+```css
+header .sub-menu ul.menu li::before {
+	content: "";
+	display:block;
+	/*display:block;  position:absolute로 block으로 바뀜*/
+	width: 1px;
+	height: 12px;
+	background-color: #e5e5e5;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+```
+![](../../../md_image/code_select.png)
+![](../../../md_image/code_header.png)
+>- li태그 안의 요소(a태그) 전에(before) ""가 들어간다.  
+>- 메뉴바 사이에 구분줄 만드는데 씀
+>- li::befor의 부모는 li
