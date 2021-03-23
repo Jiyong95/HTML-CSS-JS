@@ -47,3 +47,13 @@ window.addEventListener('scroll', _.throttle(() => {
 		});
 	}
 }, 300));
+
+
+const fadeEls = document.querySelectorAll('.visual .fade-in');
+fadeEls.forEach((fadeEls, index) => {
+	gsap.to(fadeEls, 1, {
+		//0.7s -> 첫 번째요소 출력, 1.4s -> 두 번째, 2.1s -> 세 번째
+		delay : (index + 1) * .7,
+		opacity : 1
+	});
+});
