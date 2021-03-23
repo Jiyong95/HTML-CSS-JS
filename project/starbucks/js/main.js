@@ -57,3 +57,11 @@ fadeEls.forEach((fadeEls, index) => {
 		opacity : 1
 	});
 });
+
+//SWIPER
+//new Swiper(선태자, 옵션)
+new Swiper('.notice-line .swiper-container', {
+	direction : 'vertical',
+	autoplay : true, //자동재생
+	loop: true, //반복재생여부
+});
