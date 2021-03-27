@@ -27,11 +27,11 @@ window.addEventListener('scroll', _.throttle(() => {
 	if (window.scrollY > 500){
 		/*badge 숨기기
 		방법 .1) badgeEl.style.display = 'none';
-		방법 .2) gsap.to(요소, 지속시간, 옵션); 
+		방법 .2) gsap.to(요소, 지속시간, 옵션);
 						요소에 지속시간에 걸쳐 옵션을 넣어줌.
 
 		opacity는 화면에서 안 보이게하지 사라진 것은 아님.
-		display만 안 쓰는 이유는 gsap은 숫자 값을 지속시간에 걸쳐 적용시켜주기 때문에, 
+		display만 안 쓰는 이유는 gsap은 숫자 값을 지속시간에 걸쳐 적용시켜주기 때문에,
 		'none'이런 값은 애니매이션 효과를 못넣는다.*/
 		gsap.to(badgeEl, .6, {
 			opacity : 0,
@@ -81,5 +81,22 @@ new Swiper('.promotion .swiper-container', {
 	navigation:{
 		prevEl: '.promotion .swiper-prev',
 		nextEl: '.promotion .swiper-next'
+	}
+});
+
+const promotionEl = document.querySelector('.promotion');
+const promotionToggleBtn = document.querySelector('.toggle-promotion');
+const promotionIcon = promotionToggleBtn.querySelector('.material-icons');
+let isHidePromotion = false;
+promotionToggleBtn.addEventListener('click', () => {
+	isHidePromotion = !isHidePromotion;
+	if (isHidePromotion) {
+		//숨김처리
+		promotionEl.classList.add('hide');
+		promotionIcon.textContent = 'download';
+	} else {
+		//보임처리
+		promotionEl.classList.remove('hide');
+		promotionIcon.textContent = 'upload';
 	}
 });

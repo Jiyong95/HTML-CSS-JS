@@ -23,7 +23,7 @@ a {
 .inner {
 	width:1100px;
 	margin:0 auto;
-	position:relative;	
+	position:relative;
 }
 
 .btn{
@@ -105,7 +105,7 @@ header .logo {
 	/*  */
 	left: 0;
 	/* "부모 요소"를 기준으로 수평 중앙 배치 방법 */
-	/* 
+	/*
 	width:
 	left:0
 	right:0
@@ -393,7 +393,7 @@ header .badges .badge{
 }
 
 .notice .notice-line .inner .inner__left .swiper-container{
-	flex-grow: 1; 
+	flex-grow: 1;
 	height: 62px;
 }
 
@@ -445,14 +445,20 @@ header .badges .badge{
 	font-size: 30px;
 }
 
-.notice .promotion{
+.notice .promotion {
 	height: 693px;
 	background-color: #f6f5ef;
 	position: relative;
+	transition: height .4s;
+	overflow: hidden;
+}
+
+.notice .promotion.hide {
+	height: 0;
 }
 
 .notice .promotion .swiper-container{
-	width: calc(819px * 3 + 20px); 
+	width: calc(819px * 3 + 20px);
 	height: 553px;
 	top: 40px;
 	/* 가운데 배치 하는 방법
@@ -469,10 +475,10 @@ header .badges .badge{
 	transition: opacity 1s;
 	position: relative;
 }
-/* swiper에서 html요소에 .swiper-slide-active클래스를 자동적으로 넣어줌 
+/* swiper에서 html요소에 .swiper-slide-active클래스를 자동적으로 넣어줌
 따라서 개발자도구로 확인 후 원하는 슬라이드에 css 작업*/
 .notice .promotion .swiper-slide-active{
-	opacity: 1;	
+	opacity: 1;
 }
 .notice .promotion .swiper-slide .btn{
 	position: absolute;
@@ -499,11 +505,11 @@ header .badges .badge{
 }
 
 .notice .promotion .swiper-pagination .swiper-pagination-bullet:last-child{
-	margin-right: 0;	
+	margin-right: 0;
 }
 
 .notice .promotion .swiper-pagination .swiper-pagination-bullet-active{
-	background-image: url(../images/promotion_slide_pager_on.png);	
+	background-image: url(../images/promotion_slide_pager_on.png);
 }
 
 .notice .promotion .swiper-prev,
