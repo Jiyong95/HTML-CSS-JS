@@ -596,3 +596,59 @@ header .badges .badge{
 	margin-top: 10px;
 	flex-grow: 1;
 }
+
+/* YOUTUBE VIDEO */
+.youtube{
+	position: relative;
+	height: 700px;
+	background-color: #333;
+	overflow: hidden;
+}
+
+.youtube .youtube__area{
+	/* 영상이 youtube 섹션 정 가운데로 오도록*/
+	width: 1920px;
+	background-color: orange;
+	position: absolute;
+	/* 가운데 배치 방법 1 */
+	left: 50%;
+	margin-left: calc(1920px / -2);
+
+
+	top: 50%;
+	margin-top: calc(1920px * 9 / 16 / -2);
+
+	/* 가운데 배치 방법 2
+	left: 0;
+	right: 0;
+	margin: 0 auto; */
+}
+
+.youtube .youtube__area::before {
+	content:"";
+	display: block;
+	width: 100%;
+	height: 0;
+	padding-top: 56.25%;
+	/* padding-top으로 인해 height 값을 가지게 됨.
+		 width:1920px  height : 1920px * 56.25%   =>  youtube에서 쓰는 16:9비율
+	*/
+}
+/* 여기위에 유튜브 영상을 표시하면 화면이 어둡게 출력됨. 그 기능을 넣은 것 */
+.youtube .youtube__cover{
+	background-image: url("../images/video_cover_pattern.png");
+	background-color: rgba(0,0,0,.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#player{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
