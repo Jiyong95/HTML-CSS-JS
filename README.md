@@ -12,11 +12,12 @@
 
 <a href="https://github.com/Jiyong95/Frontend-/blob/main/part8/README.md"> part 8. CSS 속성</a>
 
-<a href="https://github.com/Jiyong95/Frontend-/blob/main/part9/README.md"> part 9. JS</a>
+<a href="https://github.com/Jiyong95/Frontend-/blob/main/part9/README.md"> part 9. JS, API</a>
 
 <a href="https://github.com/Jiyong95/Frontend-/blob/main/project/starbucks/README.md"> part 10. Starbucks clone</a>
 
 #### 출처
+
 - 위키백과
 - 패스트캠퍼스 강의(heropy님)
 - <a href = "https://github.com/ParkYoungWoong/starbucks-vanilla-app">Heropy님 github</a>
