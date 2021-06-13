@@ -83,6 +83,19 @@ new Swiper('.promotion .swiper-container', {
 		nextEl: '.promotion .swiper-next'
 	}
 });
+// Awards 슬라이드 부분
+new Swiper('.awards .swiper-container', {
+	direction: 'horizontal', //default값이라 안써도 됨.
+	autoplay: true, //자동재생
+	loop: true, //반복재생
+	spaceBetween: 30, //슬라이드 사이 여백
+	slidesPerView: 5, //하나의 화면에 보여지는 슬라이드 수
+	navigation: {
+		prevEl: '.awards .swiper-prev',
+		nextEl: '.awards .swiper-next'
+	}
+});
+
 
 const promotionEl = document.querySelector('.promotion');
 const promotionToggleBtn = document.querySelector('.toggle-promotion');
