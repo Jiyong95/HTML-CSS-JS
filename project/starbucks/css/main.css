@@ -735,7 +735,9 @@ background-image: url("../images/season_product_bg.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
+	/* 배경이미지 뷰포트 기준 고정. 스크롤에 의해 움직이지 않음 */
 	background-size: cover;
+	/* 뷰포트의 더 넓은 범위에 맞춰짐 */
 }
 
 .pick-your-favorite .inner{
@@ -757,5 +759,57 @@ background-image: url("../images/season_product_bg.jpg");
 	margin-bottom: 40px;
 }
 
+/* RESERVE STORE */
+.reserve-store{
+	background-image: url("../images/reserve_store_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;;
+}
 
+.reserve-store .inner{
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+/* 회전하는 3D 애니메이션 만들기 */
+.reserve-store .medal{
+	width: 334px;
+	height: 334px;
+	/* 원근거리 */
+	perspective: 600px;
+}
+
+.reserve-store .medal .front,
+.reserve-store .medal .back{
+	width: 334px;
+	height: 334px;
+	position: absolute;
+	/* rotateY(-180deg)를 뒷면으로 인식하여 .medal .back이미지가 안보이게 됨 */
+	backface-visibility: hidden;
+	transition: 1s;
+}
+
+.reserve-store .medal .front{
+	transform: rotateY(0deg);
+}
+.reserve-store .medal:hover .front{
+	transform: rotateY(180deg);
+}
+.reserve-store .medal .back{
+	transform: rotateY(-180deg);
+}
+.reserve-store .medal:hover .back{
+	transform: rotateY(0deg);
+}
+
+.reserve-store .medal:hover .back .btn{
+	position: absolute;
+	top: 240px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
