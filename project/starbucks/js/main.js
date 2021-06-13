@@ -128,3 +128,16 @@ const floatingObject = (selector, delay, size) => {
 floatingObject('.floating1', 1, 15);
 floatingObject('.floating2', .5, 15);
 floatingObject('.floating3', 1.5, 20);
+
+// ScrollMaginc library에서 지원하는 함수
+// section태그의 class=scroll-spy요소
+const spyEls = document.querySelectorAll('section.scroll-spy')
+spyEls.forEach((spyEl) => {
+	new ScrollMagic
+	.Scene({
+		triggerElement: spyEl, //보여짐 여부를 감시할 요소
+		triggerHook: .8 // 뷰포트를 세로로 0~1이라하면 0.8지점 -> 감시할 요소가 0.8지점에 이르면 setClassToggle()실행
+	})
+	.setClassToggle(spyEl, 'show')  //spyEl에 show클래스를 추가함
+	.addTo(new ScrollMagic.Controller());
+});
