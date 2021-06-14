@@ -154,3 +154,7 @@ spyEls.forEach((spyEl) => {
 	.setClassToggle(spyEl, 'show')  //spyEl에 show클래스를 추가함
 	.addTo(new ScrollMagic.Controller());
 });
+
+// 해당 연도 구해서 입력하기
+const thisYear = document.querySelector('.this-year')
+thisYear.textContent = new Date().getFullYear();
