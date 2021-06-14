@@ -18,6 +18,7 @@ searchInputEl.addEventListener('blur', () => {
 });
 
 const badgeEl = document.querySelector('header .badges');
+const toTopEl = document.querySelector('#to-top');
 
 /* _.throttle() : lodash에서 가져온 js라이브러리에 있는 것
 _.throttle(함수, 시간) : 함수가 호출 사이에 딜레이를 둠. -> 함수가 엄청 실행되지 않도록 막음.
@@ -37,6 +38,10 @@ window.addEventListener('scroll', _.throttle(() => {
 			opacity : 0,
 			display: 'none'
 		});
+		// 버튼 보이기!
+		gsap.to(toTopEl, .2, {
+			x: 0 //x축으로 0px이동 
+		});
 	}
 	else{
 		//badge 보이기
@@ -45,9 +50,20 @@ window.addEventListener('scroll', _.throttle(() => {
 			opacity : 1,
 			display: 'block'
 		});
+		// 버튼 숨기기!
+		gsap.to(toTopEl, .2, {
+			x: 100 //x축으로 100px이동 
+		});
 	}
 }, 300));
 
+// to-top기능
+toTopEl.addEventListener('click', () => {
+	gsap.to(window, .7, {
+		scrollTo: 0
+	});
+	// window : 현재 보여지는 창의 정보
+});
 
 const fadeEls = document.querySelectorAll('.visual .fade-in');
 fadeEls.forEach((fadeEls, index) => {
@@ -158,3 +174,4 @@ spyEls.forEach((spyEl) => {
 // 해당 연도 구해서 입력하기
 const thisYear = document.querySelector('.this-year')
 thisYear.textContent = new Date().getFullYear();
+
