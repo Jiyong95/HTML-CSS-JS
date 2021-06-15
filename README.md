@@ -14,6 +14,8 @@
 
 <a href="https://github.com/Jiyong95/Frontend-/blob/main/part9/README.md"> part 9. JS, API</a>
 
+<a href="https://github.com/Jiyong95/Frontend-/blob/main/project/starbucks/README.md"> part 10. Starbucks clone</a>
+
 #### 출처
 
 - 위키백과
