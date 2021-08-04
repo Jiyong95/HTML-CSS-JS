@@ -1,6 +1,6 @@
 body{
 	height: 100vh;
-	/* 
+	/*
 	body의 영역을 화면에 보이는 높이만큼 지정해줌
 	어차피 가로는 전체(auto 기본 값)를 쓰므로 height만 지정해줌. */
 	background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/overwatch-hero-selector-vanilla/master/images/bg.jpg");
@@ -18,12 +18,12 @@ body{
 	flex-wrap: wrap;
 	justify-content: center;
 	max-width: 700px;
-	/* 
+	/*
 	이 요소가 커질 수 있는 최대 width 700px + 요소가 줄어들어도 내부 요소가 안짤림
 	width로만 지정해주면 요소가 줄어들면 내부 요소가 잘림
 	 */
 	margin: 0 auto;
-	/* 
+	/*
 	block요소의 width 값이 있을 때, margin : auto사용 시 좌우 가운데 정렬 된다.
 	상, 하는 가운데 정렬은 안되고, 좌우는 가운데 정렬된다.
 	*/
@@ -53,7 +53,7 @@ body{
 
 .container .heroes .hero .image {
 	width: 140%;
-	/* 
+	/*
 	image 너비가 부모요소의 140% = 80px * 140만큼의 너비 크기를 가짐
 	image가 140px의 너비 공간에 표시되는 거지 image의 너비가 무조건 출력된다는건 아님
 	*/
@@ -62,7 +62,7 @@ body{
 	background-size: 90px;
 	background-repeat: no-repeat;
 	transform: skewX(14deg) translateX(-16px);
-	/* 
+	/*
 	부모의 영향으로 image도 -14deg기울어서 표시되니까 원상복구해줌
 	 */
 }
