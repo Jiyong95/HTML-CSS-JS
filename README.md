@@ -17,5 +17,4 @@
 #### 출처
 
 - 위키백과
-- 패스트캠퍼스 강의(heropy님)
-- <a href = "https://github.com/ParkYoungWoong/starbucks-vanilla-app">Heropy님 github</a>
+- 패스트캠퍼스 강의
