@@ -1,4 +1,4 @@
-## 프론트엔드 공부(패스트 캠퍼스)
+## 프론트엔드 공부
 
 <a href="https://github.com/Jiyong95/Frontend-/blob/main/part1,2/README1.md"> part 1. 프론트엔드 기본 개념</a>
 
